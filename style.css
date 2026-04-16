@@ -1,0 +1,78 @@
+/* Global theme */
+body {
+  background: #f7f9fc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(90deg, #0db5fd, #f21063);
+}
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+#cartCount {
+  font-size: 0.9rem;
+  background: #ffc107;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+input, select {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+input:focus, select:focus {
+  border-color: #610dfd;
+  box-shadow: 0 0 5px rgba(13,110,253,0.5);
+}
+
+/* Product Cards */
+.card img {
+  height: 150px;
+  object-fit: contain;
+  padding: 8px;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.card img:hover {
+  transform: scale(1.05);
+  border-color: #0d6efd; /* highlight on hover */
+}
+
+.card-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #222;
+}
+.card img {
+  height: 220px;
+  object-fit: contain;
+  padding: 10px;
+}
+
+/* Buttons */
+.btn-info {
+  background-color: #f0990d;
+  border: none;
+}
+.btn-warning {
+  background-color: #ff00b7;
+  border: none;
+}
+.btn-info:hover, .btn-warning:hover {
+  opacity: 0.85;
+}
+
+/* Modal */
+.modal-content {
+  border-radius: 12px;
+}
+.modal-header {
+  background: #0d6efd;
+  color: white;
+}
